@@ -1,6 +1,6 @@
 # Word Count Exercise in Elixir
 
-##About
+## About
 
 Simple exercise demonstrating Elixir's file streaming and data pipelining capabilities.
 
