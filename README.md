@@ -6,33 +6,6 @@ Simple exercise demonstrating Elixir's file streaming and data pipelining capabi
 
 This program processes a file that contains people's names and outputs some counts as well as some transformed data.
 
-Input:
-
-An arbitrary file with in the following format:
-
-```
-[...]
-Graham, Mckenna -- ut
-    Voluptatem ipsam et at.
-Marvin, Garfield -- non
-    Facere et necessitatibus animi.
-McLaughlin, Mariah -- consequatur
-    Eveniet temporibus ducimus amet eaque.
-Lang, Agustina -- pariatur
-    Unde voluptas sit fugit.
-[...]
-```
-
-The program can be tested on much (e.g., 100x) larger files.
-
-Output:
-
-1. The unique count of full, last, and first names (i.e., duplicates are counted only once)
-2. The ten most common last names (the names and number of occurrences sorted in descending order)
-3. The ten most common first names (the names and number of occurrences sorted in descending order)
-4. A list of 25 modified names where no previous name has the same first name or same last name
-
-
 
 ## Requirements
 
